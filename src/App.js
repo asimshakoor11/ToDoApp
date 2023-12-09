@@ -65,7 +65,7 @@ function App() {
       <Router>
         <Header title="ToDos list" searchBar={true} />
         <Routes>
-          <Route path="/" element={<ToDos todos={todos} onDelete={onDelete} />}>
+          <Route path="ToDoApp/" element={<ToDos todos={todos} onDelete={onDelete} />}>
           </Route>
           <Route path="/about" element={<About />}>            
           </Route>
